@@ -1,0 +1,1795 @@
+    @font-face {
+        font-family: "Raleway Regular";
+        src: url("../fonts/raleway-regular.ttf")
+    }
+    
+    @font-face {
+        font-family: "Raleway SemiBold";
+        src: url("../fonts/raleway-semibold.ttf")
+    }
+    
+    @font-face {
+        font-family: "Monsterrat Light";
+        src: url("../fonts/montserrat-light.ttf")
+    }
+    
+    @font-face {
+        font-family: "Monsterrat UltraLight";
+        src: url("../fonts/Montserrat-UltraLight.otf")
+    }
+    
+    @font-face {
+        font-family: "Monsterrat Regular";
+        src: url("../fonts/montserrat.ttf");
+    }
+    
+    @font-face {
+        font-family: "Roboto Regular";
+        src: url("../fonts/roboto-regular.ttf");
+    }
+    
+    @font-face {
+        font-family: "Raleway Medium";
+        src: url("../fonts/raleway-medium.ttf")
+    }
+    
+    @font-face {
+        font-family: "Raleway ExtraBold";
+        src: url("../fonts/raleway-extrabold.ttf")
+    }
+    
+    @font-face {
+        font-family: "Raleway Bold";
+        src: url("../fonts/raleway-bold.ttf")
+    }
+    
+    html {
+        font-size: 10px;
+    }
+    
+    body {
+        background-color: white;
+    }
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.4rem;
+        font-family: "Monsterrat Light";
+    }
+    
+    .container {
+        max-width: 1232px;
+        margin: 0px auto;
+    }
+    
+    .header {
+        width: 100%;
+        position: fixed;
+        background-color: transparent;
+    }
+    
+    .header img {
+        float: left;
+    }
+    
+    .header .container {
+        overflow: hidden;
+    }
+    
+    .header .container p {
+        font-size: 3.4rem;
+        color: #ffffff;
+        font-family: "Raleway Regular";
+        padding: 10px 0px;
+        float: left;
+    }
+    
+    .header-menu {
+        margin: 20px 0px;
+        float: left;
+        padding-left: 218px;
+    }
+    
+    .header-menu li {
+        list-style: none;
+        display: inline-block;
+    }
+    
+    .header-menu li a:hover {
+        color: #c7b299;
+    }
+    
+    .header-menu li:nth-child(even) {
+        padding: 0px 30px;
+    }
+    
+    .header-menu li:last-child {
+        padding-right: 0px;
+    }
+    
+    .icons-block {
+        float: left;
+        margin: 15px 0px 15px 64px;
+    }
+    
+    .icons-block li {
+        list-style: none;
+        display: inline-block;
+    }
+    
+    .icons-block li a svg:hover {
+        fill: #c7b299;
+    }
+    
+    .icons-block li:first-child {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .icons-block li:last-child {
+        width: 24px;
+        height: 24px;
+        padding-left: 15px;
+    }
+    
+    .icons-block li svg {
+        fill: white;
+        stroke: black;
+    }
+    
+    .slider {
+        overflow: hidden;
+        /* height: 1025px; */
+        background-position: center;
+        background-image: url("../images/photo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .slogan {
+        color: white;
+        width: 50%;
+        padding: 30% 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .slogan h2 {
+        font-family: "Raleway Medium";
+        padding-bottom: 5px;
+        font-size: 3.4rem;
+    }
+    
+    .slogan h1 {
+        font-family: "Raleway ExtraBold";
+        font-size: 5.2rem;
+        padding-bottom: 24px;
+    }
+    
+    .slogan blockquote {
+        font-family: "Monsterrat Light";
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        margin-bottom: 35px;
+    }
+    
+    .start-button {
+        background-image: url("../images/button.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 170px;
+        height: 53px;
+        margin: 0 auto;
+    }
+    
+    .start-button p {
+        padding: 18px 0px;
+        text-align: center;
+        font-family: "Raleway ExtraBold";
+        font-size: 1.4rem;
+    }
+    
+    .start-button p a {
+        text-align: center;
+        font-family: "Raleway ExtraBold";
+        font-size: 1.4rem;
+    }
+    
+    .services {
+        /* width: 90%; */
+        fill: #555555;
+        margin: 80px 0px;
+        overflow: hidden;
+    }
+    
+    .services .container {
+        overflow: hidden;
+    }
+    
+    .service-block {
+        width: 22%;
+        float: left;
+        margin-right: 3%;
+    }
+    
+    .service-block:last-child {
+        margin-right: 0;
+    }
+    
+    .service-image {
+        width: 20%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    
+    .service-image svg {
+        fill: #555555;
+        width: 49px;
+        height: 49px;
+    }
+    
+    .service-content h2 {
+        font-size: 2.2rem;
+        font-family: "Raleway SemiBold";
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    
+    .service-content p {
+        font-size: 1.4rem;
+        line-height: 2.6rem;
+        font-family: "Monsterrat Light";
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    .service-line {
+        width: 30%;
+        margin: 0 auto;
+    }
+    
+    .service-line svg {
+        stroke: #f1eee9;
+        stroke-width: 3;
+        text-align: center;
+        height: 3px;
+        width: 100%;
+    }
+    
+    .service-block:hover svg {
+        fill: #c7b299;
+    }
+    
+    .service-block:hover .service-line svg {
+        stroke: #c7b299;
+    }
+    
+    .service-block:hover .service-content h2 {
+        color: #c7b299;
+    }
+    /* REMOVE HEIGHT 700px  */
+    
+    .version-block {
+        background-color: #fbfaf8;
+        height: 712px;
+    }
+    
+    .version-block .container {
+        padding-top: 80px;
+    }
+    
+    .description {
+        text-align: center;
+        width: 65%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    
+    .description h2 {
+        color: #555555;
+        font-family: "Raleway SemiBold";
+        font-size: 3rem;
+        padding-bottom: 15px;
+    }
+    
+    .description p {
+        color: #8c8c8c;
+        font-size: 1.6rem;
+        line-height: 3rem;
+        font-family: "Monsterrat Light";
+    }
+    
+    .images-gallery {
+        position: relative;
+        overflow: visible;
+    }
+    
+    .image-left {
+        position: absolute;
+        left: 0;
+        top: 82px;
+    }
+    
+    .image-right {
+        position: absolute;
+        right: 0;
+        top: 82px;
+    }
+    
+    .image-center {
+        position: absolute;
+        text-align: center;
+        top: 0px;
+        left: 19%;
+    }
+    
+    .rate-block {
+        background: linear-gradient(to right, #211b19 0%, #2a201c 26%, #473025 79%, #4e3427 100%);
+        padding: 50px 0px;
+        color: #fff;
+        padding-left: 30px;
+        overflow: hidden;
+    }
+    
+    .rate-block h2 {
+        font-family: "Raleway Regular";
+        font-size: 2.8rem;
+        padding-bottom: 4px;
+    }
+    
+    .rate-block p {
+        color: #615855;
+        font-size: 1.8rem;
+        font-family: "Monsterrat Light";
+    }
+    
+    .company-name {
+        color: #c7b299;
+    }
+    
+    .purchase-block {
+        background-image: url("../images/button-purchase.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin: 0 auto;
+        right: 30px;
+        width: 170px;
+        height: 50px;
+        top: 0px;
+    }
+    
+    .rate-block .container {
+        position: relative;
+    }
+    
+    .purchase-block p {
+        padding: 16px 27px;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    
+    .purchase-block p a {
+        font-family: "Raleway ExtraBold";
+        font-size: 1.4rem;
+    }
+    
+    .latest-projects .container {
+        overflow: hidden;
+    }
+    
+    .latest-projects .projects-description {
+        text-align: center;
+        width: 65%;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+    
+    .projects-description h2 {
+        font-size: 3rem;
+        color: #555555;
+        font-family: "Raleway SemiBold";
+        padding-bottom: 15px;
+    }
+    
+    .projects-description p {
+        font-size: 1.6rem;
+        color: #8c8c8c;
+        font-family: "Monsterrat Light";
+        padding-bottom: 15px;
+        line-height: 3rem;
+    }
+    
+    .button-list {
+        width: 55%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    .button-list ul {
+        float: left;
+        font-family: "Monsterrat Light";
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        color: #8c8c8c;
+        margin: 40px 0px;
+    }
+    
+    .button-list ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 5px 25px;
+        margin-right: 10px;
+        border: 1px solid #ebebeb;
+        border-radius: 5px;
+    }
+    
+    .button-list ul li:hover {
+        border-color: #998675;
+        background-color: #998675;
+        color: #fff;
+    }
+    
+    .project-block {
+        float: left;
+        margin-right: 4%;
+        margin-bottom: 3%;
+    }
+    
+    .project-block:hover h3 {
+        color: #ffffff;
+    }
+    
+    .project-block:hover .project-name {
+        background-color: #362f2d;
+    }
+    
+    .project-block:hover p {
+        color: #c7b299;
+    }
+    
+    .project-block .project-image {
+        height: 237px;
+        /* EDIT */
+        position: relative;
+    }
+    
+    .project-block .project-image img {
+        position: relative;
+        display: block;
+        z-index: -1;
+    }
+    /* SHADOW SHADOW SHADOW */
+    
+    .project-block:hover .project-image {
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+    }
+    
+    .project-block .image-triangular {
+        border-color: transparent transparent #fbfaf8 transparent;
+        border-style: solid;
+        border-width: 10px 15px 10px 15px;
+        height: 0px;
+        width: 0px;
+        position: absolute;
+        fill: white;
+        bottom: 0px;
+        left: 15px;
+    }
+    
+    .project-block:nth-child(8) {
+        margin-right: 0;
+    }
+    
+    .project-block:hover .image-triangular {
+        border-bottom-color: #362f2d;
+    }
+    
+    .project-block:nth-child(5) {
+        margin-right: 0;
+    }
+    
+    .project-name {
+        padding: 30px 0px;
+        padding-left: 30px;
+        background-color: #fbfaf8;
+    }
+    
+    .project-name h3 {
+        color: #c7b299;
+        font-size: 2rem;
+        font-family: "Raleway Medium";
+    }
+    
+    .project-name p {
+        color: #d1d1d1;
+        font-size: 1.4rem;
+        font-family: "Monsterrat Light";
+        line-height: 2.4rem;
+    }
+    
+    .projects-load {
+        clear: both;
+        background-image: url("../images/load-button.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 170px;
+        height: 50px;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+    
+    .projects-load p {
+        padding: 18px;
+        text-align: center;
+    }
+    
+    .projects-load p a {
+        font-family: "Raleway ExtraBold";
+        font-size: 1.4rem;
+    }
+    
+    .video-presentation {
+        background-image: url("../images/video.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    }
+    
+    .video-presentation .container {
+        overflow: hidden;
+    }
+    
+    .play-button {
+        width: 100px;
+        height: 100px;
+        /* border: 50px solid black;
+    opacity: 0.2;
+    border-radius: 50%; */
+        background-image: url("../images/circle.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 45px;
+    }
+    
+    .play-button svg {
+        fill: white;
+    }
+    
+    .button-container {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 15%;
+        left: 15%;
+    }
+    
+    .video-description {
+        width: 50%;
+        color: #ffffff;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .video-description h2 {
+        font-family: "Raleway Medium";
+        font-size: 3rem;
+        margin-bottom: 25px;
+    }
+    
+    .video-description p {
+        font-family: "Monsterrat Light";
+        font-size: 1.6rem;
+        margin-bottom: 25px;
+        line-height: 3rem;
+    }
+    
+    .video-description p:last-child {
+        color: #c7b299;
+        font-size: 1.4rem;
+        font-family: "Monsterrat Regular";
+        line-height: 2.6rem;
+    }
+    
+    .video-container {
+        margin: 200px 0px;
+    }
+    
+    .mobile-preview {
+        background-color: #fbfaf8;
+        color: #555555;
+    }
+    
+    .mobile-preview .container {
+        overflow: hidden;
+        padding-top: 80px;
+    }
+    
+    .phone-image {
+        float: left;
+        margin-right: 5%;
+        height: 616px;
+    }
+    
+    .phone-description {
+        width: 55%;
+        float: left;
+        padding-top: 10%;
+    }
+    
+    .phone-description h2 {
+        font-size: 3rem;
+        font-family: "Raleway SemiBold";
+        margin-bottom: 35px;
+    }
+    
+    .phone-description p {
+        font-size: 1.6rem;
+        line-height: 3rem;
+        font-family: "Monsterrat Light";
+        margin-bottom: 35px;
+        color: #8c8c8c;
+    }
+    
+    .phone-description ul li {
+        list-style: none;
+        background: url("../images/marker.png") no-repeat 0 6px;
+        padding-left: 60px;
+        line-height: 3.2rem;
+    }
+    
+    .phone-description ul {
+        color: #8c8c8c;
+        font-size: 1.6rem;
+        font-family: "Monsterrat Light";
+        margin-left: 55px;
+    }
+    
+    .counters {
+        background: linear-gradient(to right, #211b19 0%, #2a201c 26%, #473025 79%, #4e3427 100%);
+    }
+    
+    .counters .container {
+        overflow: hidden;
+        padding-left: 8%;
+    }
+    
+    .counters .counter-block {
+        width: 15%;
+        text-align: center;
+        float: left;
+        margin: 60px 0px;
+        margin-right: 2%;
+    }
+    
+    .counters .counter-block:last-child {
+        margin-right: 0;
+    }
+    
+    .counters .counter-image {
+        height: 44px;
+        width: 44px;
+        fill: #c7b299;
+        padding-bottom: 16px;
+        margin: 0 auto;
+    }
+    
+    .counters p:first-child {
+        font-size: 4.8rem;
+        color: #ffffff;
+        line-height: 6.6rem;
+        font-family: "Monsterrat UltraLight";
+        padding-bottom: 5px;
+    }
+    
+    .counters p:last-child {
+        font-size: 1.4rem;
+        color: #c7b299;
+        line-height: 2.4rem;
+        font-family: "Monsterrat Light";
+        margin-bottom: 26px;
+    }
+    
+    .counters .counter-line {
+        stroke: #ffffff;
+        stroke-width: 3;
+        width: 18%;
+        height: 3px;
+        margin: 0 auto;
+    }
+    
+    .recent-posts .container {
+        overflow: hidden;
+    }
+    
+    .recent-posts .block-title {
+        width: 65%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    .post-block {
+        float: left;
+        width: 370px;
+        margin-right: 3%;
+        margin-bottom: 40px;
+    }
+    
+    .post-block:nth-child(4) {
+        margin-right: 0;
+    }
+    
+    .recent-posts .block-title h2 {
+        font-size: 3rem;
+        color: #555555;
+        font-family: "Raleway SemiBold";
+        margin-bottom: 22px;
+    }
+    
+    .recent-posts .block-title p {
+        font-size: 1.6rem;
+        color: #8c8c8c;
+        font-family: "Monsterrat Light";
+        margin-bottom: 22px;
+        line-height: 2.6rem;
+    }
+    
+    .recent-posts .post-image {
+        position: relative;
+    }
+    
+    .recent-posts .post-image img {
+        position: relative;
+        display: block;
+        z-index: -1;
+    }
+    
+    .recent-posts .post-image .post-date {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 10;
+    }
+    
+    .recent-posts .post-day {
+        font-size: 2.4rem;
+        line-height: 3.4rem;
+        padding: 0px 10px;
+        color: #ffffff;
+        background-color: #363636;
+        font-family: "Monsterrat Light";
+        text-align: center;
+        border-radius: 5px 5px 0px 0px;
+    }
+    
+    .recent-posts .post-month {
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+        color: #fff;
+        padding: 0px 10px 5px 10px;
+        background-color: #252525;
+        font-family: "Roboto Regular";
+        text-align: center;
+        border-radius: 0px 0px 5px 5px;
+    }
+    
+    .recent-posts .post-description {
+        padding-left: 30px;
+        background-color: rgba(119, 119, 119, 0);
+        border: 1px solid rgb(248, 248, 248);
+        border-top: none;
+    }
+    
+    .recent-posts .post-description h3 {
+        font-family: "Raleway Medium";
+        font-size: 2rem;
+        color: #555;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .recent-posts .post-description p {
+        font-family: "Monsterrat Light";
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        color: #8c8c8c;
+        margin-bottom: 25px;
+    }
+    
+    .link-button {
+        position: relative;
+        margin-bottom: 25px;
+    }
+    
+    .recent-posts .post-description .link-button a {
+        color: #c7b299;
+        font-family: "Monsterrat Light";
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+    }
+    
+    .button-more {
+        width: 8px;
+        height: 8px;
+        fill: #c7b299;
+        position: absolute;
+        left: 85px;
+        top: 8px;
+    }
+    
+    .post-block:hover .post-description {
+        background-color: #362f2d;
+        border-color: #362f2d;
+    }
+    
+    .post-block:hover .post-day {
+        background-color: #c7b299;
+        color: #ffffff;
+    }
+    
+    .post-block:hover .post-month {
+        background-color: #a48d72;
+        color: #ffffff;
+    }
+    
+    .post-block:hover .post-image {
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+    }
+    
+    .post-block:hover .post-description h3 {
+        color: #c7b299;
+    }
+    
+    .post-block:hover .post-description p {
+        color: #fff;
+    }
+    
+    .post-change-buttons {
+        width: 5%;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        overflow: hidden;
+    }
+    
+    .post-change-buttons .left-button {
+        float: left;
+        width: 22px;
+        height: 22px;
+        fill: #d4d4d4;
+        margin-right: 8px;
+    }
+    
+    .post-change-buttons .right-button {
+        float: left;
+        width: 22px;
+        height: 22px;
+        fill: #d4d4d4;
+        transform: scale(-1);
+    }
+    
+    .post-change-buttons:hover .right-button:hover {
+        fill: #c7b299;
+    }
+    
+    .post-change-buttons:hover .left-button:hover {
+        fill: #c7b299;
+    }
+    /*          START PARTNERS BLOCK         */
+    
+    .partners {
+        background-image: url("../images/partners/logo-bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .partners .container {
+        overflow: hidden;
+        padding: 9% 0;
+    }
+    
+    .partners .partner-block {
+        float: left;
+        margin-right: 8%;
+    }
+    
+    .partners .partner-block:first-child {
+        padding-left: 4%;
+    }
+    
+    .partners .partner-block:first-child img {
+        padding: 20% 0;
+    }
+    
+    .partners .partner-block:nth-child(3) img {
+        padding: 20% 0;
+    }
+    
+    .partners .partner-block:last-child {
+        margin-right: 0;
+    }
+    
+    .partners .partner-block:last-child img {
+        padding: 10% 0;
+    }
+    /*            END PARTNERS BLOCK            */
+    /*              START FOOTER                */
+    
+    .footer {
+        background-color: #191919;
+    }
+    
+    .footer .container {
+        overflow: hidden;
+        padding-top: 80px;
+        padding-bottom: 85px;
+    }
+    
+    .footer .about-block {
+        overflow: hidden;
+        width: 22%;
+        float: left;
+    }
+    
+    .footer .footer-logo {
+        overflow: hidden;
+    }
+    
+    .footer .about-block .footer-logo img {
+        float: left;
+    }
+    
+    .footer .about-block p {
+        font-size: 1.4rem;
+        font-family: "Monsterrat Light";
+        color: #555555;
+        line-height: 2.6rem;
+        margin-bottom: 30px;
+    }
+    
+    .footer .about-block .footer-logo p {
+        font-size: 3.4rem;
+        color: #ffffff;
+        font-family: "Raleway Regular";
+        padding: 15px 0px;
+        float: left;
+    }
+    
+    .arrow-link {
+        float: left;
+        width: 8px;
+        height: 8px;
+        fill: #d1d1d1;
+        margin-left: 10px;
+        padding-top: 3px;
+    }
+    
+    .read-more-link {
+        float: left;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        color: #d1d1d1;
+        font-family: "Monsterrat Light";
+    }
+    
+    .last-posts {
+        float: left;
+        width: 22%;
+    }
+    
+    .last-posts .post-item {
+        border-bottom: 1px solid #252525;
+    }
+    
+    .last-posts h3 {
+        font-size: 2.4rem;
+        font-family: "Raleway Bold";
+        color: #fff;
+        margin-bottom: 16px;
+    }
+    
+    .last-posts .post-item p:first-child {
+        font-size: 1.2rem;
+        font-family: "Monsterrat Light";
+        line-height: 2.2rem;
+        color: #363636;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+    
+    .last-posts .post-item p:last-child {
+        font-size: 1.4rem;
+        font-family: "Monsterrat Light";
+        line-height: 2.4rem;
+        color: #555;
+        margin-bottom: 20px;
+    }
+    
+    .last-posts .post-item:last-child {
+        border-bottom: none;
+    }
+    
+    .last-posts .post-item:hover p:first-child {
+        color: #fff;
+    }
+    
+    .last-posts .post-item:hover p:last-child {
+        color: #c7b299;
+    }
+    
+    .twitter-block {
+        float: left;
+        width: 22%;
+    }
+    
+    .twitter-block h3 {
+        font-size: 2.4rem;
+        font-family: "Raleway Bold";
+        color: #fff;
+        margin-bottom: 16px;
+    }
+    
+    .twitter-block .post-item p:first-child {
+        font-size: 1.4rem;
+        font-family: "Monsterrat Light";
+        line-height: 2.4rem;
+        color: #555;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+    
+    .twitter-block .post-item p:last-child {
+        font-size: 1.2rem;
+        font-family: "Monsterrat Light";
+        line-height: 2.2rem;
+        color: #363636;
+        margin-bottom: 20px;
+    }
+    
+    .twitter-block .post-item .twiiter-color {
+        color: #00bff3;
+    }
+    
+    .twitter-block .post-item .twitter-link {
+        color: #959595;
+    }
+    
+    .twitter-block .post-item {
+        border-bottom: 1px solid #252525;
+    }
+    
+    .twitter-block .post-item:last-child {
+        border-bottom: none;
+    }
+    
+    .dribbble-widget {
+        float: left;
+        width: 22%;
+    }
+    
+    .dribbble-widget h3 {
+        font-size: 2.4rem;
+        font-family: "Raleway Bold";
+        color: #fff;
+        margin-bottom: 16px;
+    }
+    
+    .dribbble-widget .widget-image {
+        height: 98px;
+    }
+    
+    .dribbble-widget .left-column {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .dribbble-widget .left-column .widget-image:first-child {
+        margin-bottom: 10px;
+    }
+    
+    .dribbble-widget .right-column .widget-image:first-child {
+        margin-bottom: 10px;
+    }
+    
+    .dribbble-widget .right-column {
+        float: left;
+    }
+    
+    .footer .dribbble-widget,
+    .last-posts,
+    .twitter-block,
+    .about-block {
+        margin-right: 3%;
+    }
+    
+    .footer .about-block {
+        margin-left: 10px;
+    }
+    
+    .footer .dribbble-widget {
+        margin-right: 0;
+    }
+    
+    .footer .dribbble-widget,
+    .last-posts,
+    .twitter-block {
+        padding-top: 25px;
+    }
+    /*           END FOOTER                */
+    /*          COPYRIGHT SECTION         */
+    
+    .footer-copyright {
+        background-color: #111;
+    }
+    
+    .footer-copyright .container {
+        overflow: hidden;
+        padding: 40px 0px 50px 0px;
+    }
+    
+    .footer-copyright .footer-colorized {
+        color: #959595;
+    }
+    
+    .footer-copyright .copyright-menu li:first-child {
+        color: #555;
+        font-family: "Monsterrat Light";
+        font-size: 1.3rem;
+        line-height: 2.3rem;
+    }
+    
+    .footer-copyright .copyright-menu li:first-child {
+        border-left: none;
+    }
+    
+    .copyright-menu li {
+        list-style: none;
+        display: inline-block;
+    }
+    
+    .copyright-menu li a::after,
+    .copyright-menu li :after {
+        content: "|";
+        color: #555;
+        width: 5px;
+        margin: 0px 8px;
+        height: 20px;
+        display: inline-block;
+    }
+    
+    .copyright-menu li:last-child a::after {
+        content: "";
+    }
+    
+    .footer-copyright .copyright-menu li a {
+        color: #555555;
+        font-family: "Monsterrat Light";
+        font-size: 1.3rem;
+        line-height: 2.3rem;
+    }
+    
+    .copyright-menu li a:hover {
+        color: #c7b299;
+    }
+    
+    .dev-block {
+        color: #555;
+        font-family: "Monsterrat Light";
+        font-size: 1.3rem;
+        line-height: 2.3rem;
+    }
+    
+    .footer-copyright .right-menu .dev-block>li .footer-colorized a {
+        color: #959595;
+    }
+    
+    .dev-block>li {
+        list-style: none;
+        display: inline-block;
+    }
+    
+    .dev-block>li a {
+        color: #555;
+    }
+    
+    .dev-block>li a:after {
+        content: "|";
+        width: 5px;
+        margin: 0px 8px;
+        height: 20px;
+        color: #555;
+        display: inline-block;
+    }
+    
+    .dev-block>li:last-child a:after {
+        content: "";
+    }
+    
+    .footer-copyright .left-menu {
+        width: 40%;
+        float: left;
+    }
+    
+    .footer-copyright .right-menu {
+        width: 30%;
+        float: right;
+    }
+    /*         END COPYTIGHT SECTION      */
+
+    /* Adaptive menu section */
+    
+    @media (max-width: 1224px) {
+        .container {
+            width: 1140px;
+        }
+        .project-block {
+            margin-right: 1%;
+        }
+        .twitter-block,
+        .dribbble-widget,
+        .last-posts {
+            margin-right: 2%;
+        }
+        .about-block {
+            margin-left: 2%;
+        }
+        .dribbble-widget .left-column,
+        .right-column {
+            padding-left: 15%;
+        }
+        .dribbble-widget {
+            margin-right: 0%;
+        }
+        .left-menu {
+            margin-left: 2%;
+        }
+        .button-list {
+            width: 60%;
+        }
+        .post-block {
+            margin-right: 1%;
+        }
+        .header-menu {
+            padding-left: 10%;
+        }
+        .icons-block {
+            margin-left: 2%;
+        }
+        .counters .container {
+            padding-left: 0;
+        }
+        .counters .counter-block {
+            width: 18%;
+        }
+        .purchase-block {
+            right: 5%;
+        }
+        .rate-block {
+            padding-left: 0%;
+        }
+        .rate-block .title-block {
+            padding-left: 2%;
+        }
+        .partners .partner-block {
+            margin-right: 7%;
+        }
+        .footer-copyright .right-menu {
+            width: 31%;
+        }
+    }
+    
+    @media (max-width: 1156px) {
+        .container {
+            width: 900px;
+        }
+        .version-block {
+            height: 742px;
+        }
+        .header .header-menu {
+            padding-left: 7%;
+        }
+        .header .icons-block {
+            margin-left: 5%;
+        }
+        .header img {
+            margin-left: 40%;
+        }
+        .service-block:first-child {
+            margin-left: 2%;
+        }
+        .images-gallery {
+            height: 500px;
+        }
+        .image-left,
+        .image-right {
+            top: none;
+            bottom: 0px;
+        }
+        .image-center {
+            left: 8%;
+        }
+        .button-list {
+            width: 75%;
+        }
+        .project-block {
+            margin-left: 6%;
+        }
+        .phone-image {
+            margin-right: 0;
+        }
+        .phone-description {
+            width: 50%;
+            padding-top: 0;
+        }
+        .counter-block:first-child {
+            margin-left: 2%;
+        }
+        .post-block {
+            margin-left: 6%;
+            margin-right: 0;
+        }
+        .post-block:nth-child(4) {
+            margin-left: 30%;
+        }
+        .post-change-buttons {
+            width: 60px;
+            clear: both;
+        }
+        .partners .partner-block:first-child,
+        .partner-block:nth-child(3) {
+            padding: 0;
+            margin: 0;
+            margin-left: 16%;
+        }
+        .partners .partner-block {
+            padding: 0;
+            margin: 0;
+            margin-bottom: 5%;
+            margin-left: 16%;
+        }
+        .project-block:nth-child(5) {
+            margin-right: 1%;
+        }
+        .footer-copyright .left-menu {
+            width: 47%;
+        }
+        .footer-copyright .right-menu {
+            width: 39%;
+        }
+    }
+    
+    @media (max-width: 916px) {
+        .container {
+            width: 750px;
+        }
+        .header .header-menu {
+            padding-left: 5%;
+        }
+        .header-menu li:nth-child(even) {
+            padding: 0px 20px;
+        }
+        .header .icons-block {
+            margin-left: 2%;
+        }
+        .slider .slogan {
+            width: 70%;
+        }
+        .services .service-block {
+            width: 26%;
+            margin-right: 6%;
+        }
+        .service-block:first-child {
+            margin-left: 5%;
+        }
+        .services .service-block:nth-child(3) {
+            margin-right: 0;
+        }
+        .service-block:last-child {
+            margin-left: 37%;
+            margin-top: 5%;
+        }
+        .service-image {
+            width: 25%;
+        }
+        .image-left,
+        .image-right {
+            width: 600px;
+            height: 350px;
+            top: 97px;
+            bottom: 0px;
+        }
+        .image-left img,
+        .image-right img {
+            width: 600px;
+            height: 350px;
+        }
+        .image-right {
+            z-index: 100;
+        }
+        .image-left {
+            z-index: 400;
+        }
+        .image-center {
+            top: -3px;
+            left: 10%;
+            z-index: 500;
+            width: 600px;
+            height: 450px;
+        }
+        .images-gallery {
+            height: 447px;
+        }
+        .image-center img {
+            width: 600px;
+            height: 450px;
+        }
+        .purchase-block {
+            right: 0;
+        }
+        .button-list {
+            width: 89%;
+        }
+        .project-block {
+            margin-right: 0;
+            margin-left: 0;
+            margin-right: 5px;
+        }
+        .project-block:nth-child(5) {
+            margin-right: 5px;
+        }
+        .video-description {
+            width: 70%;
+        }
+        .phone-image {
+            margin-top: 8%;
+        }
+        .phone-description {
+            width: 43%;
+        }
+        .phone-description ul {
+            margin-left: 0;
+        }
+        .post-block {
+            margin-right: 10px;
+            margin-left: 0;
+        }
+        .post-block:nth-child(3) {
+            margin-right: 0;
+        }
+        .post-block:nth-child(4) {
+            margin-left: 25%;
+        }
+        .footer-copyright .left-menu,
+        .footer-copyright .right-menu {
+            width: 100%;
+            text-align: center;
+            margin-left: 0;
+        }
+        .footer-copyright .right-menu {
+            float: left;
+        }
+        .footer .dribbble-widget,
+        .last-posts,
+        .twitter-block {
+            padding-top: 0;
+        }
+        .dribbble-widget h3 {
+            padding-left: 15%;
+        }
+    }
+    
+    @media (max-width: 766px) {
+        .container {
+            width: 500px;
+        }
+        .header {
+            display: none;
+        }
+        .slider .slogan {
+            width: 80%;
+        }
+        .services .service-block {
+            width: 40%;
+            margin: 5% 0 5% 5%;
+        }
+        .services .service-block:last-child {
+            margin: 5% 0 0 5%;
+        }
+        .rate-block .title-block {
+            text-align: center;
+        }
+        .rate-block .purchase-block {
+            position: static;
+            margin-top: 5%;
+        }
+        .latest-projects .button-list {
+            text-align: center;
+            width: 80%;
+        }
+        .latest-projects .button-list li {
+            margin-bottom: 5%;
+        }
+        .project-block {
+            margin-left: 13%;
+            margin-right: 0;
+        }
+        .phone-image {
+            margin-top: 0;
+            margin-left: 10%;
+        }
+        .phone-description {
+            width: 80%;
+            margin: 5% 0 5% 10%;
+        }
+        .counter-block:first-child {
+            margin-left: 4%;
+        }
+        .counters .counter-block {
+            margin-right: 3%;
+            width: 28%;
+        }
+        .counters .counter-block:nth-child(4) {
+            margin-left: 20%;
+            margin-top: 0;
+        }
+        .counters .counter-block:nth-child(5) {
+            margin-top: 0;
+        }
+        .recent-posts .block-title {
+            width: 80%;
+        }
+        .post-block {
+            margin-left: 13%;
+        }
+        .post-block:nth-child(4) {
+            margin-left: 13%;
+        }
+        .partners .partner-block:first-child,
+        .partner-block:nth-child(3) {
+            padding: 0;
+            margin: 0;
+            margin-left: 25%;
+        }
+        .partners .partner-block {
+            padding: 0;
+            margin: 0;
+            margin-bottom: 5%;
+            margin-left: 25%;
+        }
+        .footer .about-block {
+            width: 45%;
+            margin-left: 5%;
+        }
+        .footer .last-posts {
+            width: 40%;
+        }
+        .footer .twitter-block {
+            width: 45%;
+            margin-left: 5%;
+        }
+        .footer .dribbble-widget {
+            width: 45%;
+            margin-right: 0;
+        }
+        .image-left,
+        .image-right {
+            width: 420px;
+            height: 220px;
+            top: 30px;
+        }
+        .image-left img,
+        .image-right img {
+            width: 420px;
+            height: 220px;
+        }
+        .image-right {
+            z-index: 100;
+        }
+        .image-left {
+            z-index: 400;
+        }
+        .image-center {
+            top: 0px;
+            left: 10%;
+            z-index: 500;
+            width: 400px;
+            height: 250px;
+        }
+        .images-gallery {
+            height: 260px;
+        }
+        .image-center img {
+            width: 350px;
+            height: 250px;
+        }
+        .version-block {
+            /* height: 579px; */
+            height: 575px;
+        }
+        .description {
+            width: 85%;
+        }
+    }
+    
+    @media (max-width: 516px) {
+        .container {
+            width: 450px;
+        }
+        .image-left,
+        .image-right {
+            width: 350px;
+            height: 220px;
+            top: 30px;
+        }
+        .image-left img,
+        .image-right img {
+            width: 350px;
+            height: 220px;
+        }
+        .image-right {
+            z-index: 100;
+        }
+        .image-left {
+            z-index: 400;
+        }
+        .image-center {
+            top: 0px;
+            left: 7%;
+            z-index: 500;
+            width: 400px;
+            height: 250px;
+        }
+        .images-gallery {
+            height: 260px;
+        }
+        .image-center img {
+            width: 350px;
+            height: 250px;
+        }
+        .version-block {
+            height: 579px;
+        }
+        .services .service-block {
+            width: 45%;
+            margin: 5% 0 5% 5%;
+        }
+        .project-block,
+        .post-block {
+            margin-left: 10%;
+        }
+        .counters .counter-block {
+            width: 30%;
+            margin-right: 2%;
+        }
+    }
+    
+    @media (max-width: 466px) {
+        .container {
+            width: 315px;
+        }
+        .image-left,
+        .image-right {
+            width: 250px;
+            height: 180px;
+            top: 20px;
+        }
+        .image-left img,
+        .image-right img {
+            width: 250px;
+            height: 180px;
+        }
+        .image-right {
+            z-index: 100;
+        }
+        .image-left {
+            z-index: 400;
+        }
+        .image-center {
+            top: 0px;
+            left: 10%;
+            z-index: 500;
+            width: 250px;
+            height: 200px;
+        }
+        .images-gallery {
+            height: 200px;
+            width: 310px;
+        }
+        .image-center img {
+            width: 250px;
+            height: 200px;
+        }
+        .services .service-block,
+        .services .service-block:last-child {
+            width: 80%;
+            margin-left: 10%;
+        }
+        .version-block {
+            height: 626px;
+        }
+        .latest-projects .projects-description {
+            width: 85%;
+        }
+        .latest-projects .button-list {
+            width: 90%;
+        }
+        .project-block {
+            margin-left: 0;
+        }
+        .phone-image {
+            width: 290px;
+            height: 500px;
+            margin-left: 0;
+        }
+        .phone-image img {
+            width: 290px;
+            height: 500px;
+        }
+        .rate-block .title-block {
+            width: 90%;
+        }
+        .service-image {
+            width: 20%;
+        }
+        .project-block {
+            width: 315px;
+        }
+        .counters .counter-block {
+            width: 43%;
+            margin-left: 4%;
+            margin-right: 1%;
+        }
+        .counters .counter-block:nth-child(4) {
+            margin-left: 4%;
+            margin-top: 60px;
+        }
+        .counters .counter-block:nth-child(5) {
+            margin-left: 28%;
+        }
+        .recent-posts .post-block {
+            width: 315px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .recent-posts .post-block img {
+            width: 310px;
+            height: 183px;
+            margin-left: 0;
+        }
+        .recent-posts .post-description {
+            padding-left: 10px;
+        }
+        .partners .partner-block:first-child,
+        .partner-block:nth-child(3),
+        .partners .partner-block {
+            margin-left: 18%;
+        }
+        .footer .about-block,
+        .footer .twitter-block,
+        .footer .dribbble-widget,
+        .footer .last-posts {
+            width: 90%;
+            margin: 0 0 5% 5%;
+        }
+        .dribbble-widget .left-column,
+        .right-column {
+            padding-left: 0;
+        }
+        .footer .footer-logo {
+            padding-left: 8%;
+        }
+        .footer-copyright .right-menu {
+            margin-top: 5%;
+        }
+    }

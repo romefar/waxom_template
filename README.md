@@ -1,2 +1,4 @@
 # waxom_template
-HTML/CSS template.
+Waxom static ladnging page. HTML/CSS/JS.
+View: https://romefar.github.io/waxom_template/
+

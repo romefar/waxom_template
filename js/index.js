@@ -29,5 +29,5 @@ headerMenu.addEventListener('click', (e) => {
 
 headerBurger.addEventListener('click', (e) => {    
     headerMenuAdaptive.classList.toggle('header__menu-adaptive-visible'); 
-    headerMenuAdaptive.classList.add('header-highlited');
+    if(window.pageYOffset < slider.offsetHeight) headerMenuAdaptive.classList.add('header-highlited');
 }); 

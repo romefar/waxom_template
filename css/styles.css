@@ -67,11 +67,34 @@
         max-width: 1232px;
         margin: 0px auto;
     }
+
+    .header .header__menu-adaptive-visible { 
+        margin-left: 0;
+        transition: all 1.5s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     
+    .header__burger { 
+        width: 50px;
+        margin: 10px 0 20px 0;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        display: none;
+    }
+
     .header {
         width: 100%;
         position: fixed;
         background-color: transparent;
+        z-index: 1000;
+        transition: background-color 1s ease;
+    }
+
+    .header-scrolled { 
+        background-color: rgba(115, 77, 38, 0.7);
     }
     
     .header img {
@@ -80,6 +103,7 @@
     
     .header .container {
         overflow: hidden;
+        position: relative;
     }
     
     .header .container p {
@@ -94,6 +118,7 @@
         margin: 20px 0px;
         float: left;
         padding-left: 218px;
+        transition: all 1.5s ease;
     }
     
     .header-menu li {
@@ -1493,9 +1518,62 @@
         .container {
             width: 500px;
         }
+        .version-block .images-gallery { 
+            bottom: -6px;
+        }
         .header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .header__burger { 
+            display: block;
+        }
+
+        .header__menu-adaptive{ 
+            margin-left : -1000px;
+        }
+
+        .header__menu-adaptive { 
             display: none;
         }
+
+        .header .icons-block {
+            display: none;
+        }
+
+        .header .header-menu { 
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 0 0 20px 0;
+            margin: 0;
+        }
+
+        .header-menu li { 
+            display: block;
+            padding: 15px 0;
+        }
+
+        .header .container .header__company-name { 
+            display: inline-block;
+            text-align: center;
+        }
+
+        /* .header__menu-adaptive {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        } */
+
+        .header__menu-adaptive > img { 
+            display: none;
+        }
+
+        /* .header-menu { 
+            float: none;
+        } */
         .slider .slogan {
             width: 80%;
         }
